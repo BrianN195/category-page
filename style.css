@@ -1,0 +1,110 @@
+
+* {
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+.toprow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+
+
+}
+
+.toph2 {
+    color: aliceblue;
+    font-size: 1.0em;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    gap: 0 0.9em;
+    font-size: 0.6em;
+}
+
+ .topnav li a {
+    list-style: none;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+
+
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.business {
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 10vw;
+    gap: 2vh 0;
+}
+
+.business p {
+    font-size: 0.8em;
+    color: rgb(85, 85, 85);
+
+    
+}
+
+
+ .card {
+    display: flex;
+    flex-direction: row;
+    
+    
+
+
+ }
+
+ img {
+     
+    height: 200px;
+    aspect-ratio: 1;
+    object-fit: cover;
+
+ }
+
+ .business-h2 {
+    font-size: 0.9em;
+    color: black;
+    margin: 10px 0;
+ }
+
+ .business-h4 {
+    font-size: 0.7em;
+    color: darkorchid;
+    margin: 0;
+ }
+
+ .card div {
+    padding: 1.5em;
+ }
+
+ .card div p {
+    font-size: 0.7em;
+    color: rgb(85, 85, 85);
+ }
+
+ .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+ }
