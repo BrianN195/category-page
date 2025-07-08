@@ -52,6 +52,8 @@ footer{
         input{
             background-color: var(--backgroundsecondcolor);
             border: none;
+            outline: 0.5px solid black;
+            color: var(--fontsecondcolor);
             
             
         }
@@ -69,6 +71,19 @@ footer{
         justify-content: space-between;
         p{
             color: var(--fontsecondcolor);
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            li{
+                
+                
+                img{
+                    height: 2em;
+                    background-color: lightgray;
+                    border-radius: 100%;
+                }
+            }
         }
     }
 }
