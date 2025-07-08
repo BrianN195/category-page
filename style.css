@@ -12,6 +12,59 @@
     --backgroundsecondcolor: rgb(43, 41, 41);
     --buttoncolor: rgb(196, 196, 61);
 }
+.sidemenu{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.Categories{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    h3{
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+    button{
+        background-color: white;
+        height: 7vh;
+        width: 40vw;
+        padding-left: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        border: 1px solid gray;
+        margin: 2vh 0;
+        img{
+
+            height: 2em;
+            aspect-ratio: 1;
+            object-fit: cover;
+            
+        }
+    }
+}
+.Tags{
+    display: flex;
+    flex-direction: column;
+    h3{
+        font-weight: bold;
+        font-size: 3em;
+        margin-bottom: 1.5em;
+    }
+}
+.Tag-Button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em 3em;
+    button{
+        padding: 1em 2em;
+        border-radius: 40%;
+        border: 1px solid lightgray;
+        background-color: white;
+    }
+}
 
 footer{
     background-color: var(--backgroundmaincolor);
